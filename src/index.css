@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+:global .react-rater-star.is-active {
+  color: #fc6;
+}
+
+:global .react-rater-star.is-active-half:before {
+  color: #fc6;
+  content: '\2605';
+  position: absolute;
+  left: 0;
+  width: 50%;
+  overflow: hidden;
+}
+
+.focused-list-item:hover {
+  background-color: #ffe5f1;
+}
+
+.selected-list-item {
+  background-color: #abc8ff;
+}
