@@ -25,7 +25,7 @@ $ yarn start
 $ yarn build
 ```
 
-#### 2. Chang your current directory to `build` folder
+#### 2. Change your current directory to `build` folder
 ```
 $ cd build
 ```
@@ -36,7 +36,7 @@ $ export NODE_ENV='production'
 ```
 
 #### 4. Run server
-If python3 is installed on your computer, run server as below.
+If python3 is installed on your computer, run the server as below.
 ```
 $ python3 -m http.server 8000
 ```
@@ -67,6 +67,3 @@ After you run the app in production mode, follow the following instruction.
 ![alt_text](./readme_images/use.png)
 -
 ![alt_text](./readme_images/console.png)
-
-
-
