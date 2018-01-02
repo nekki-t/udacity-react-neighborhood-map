@@ -55,6 +55,10 @@ export const styles = theme => ({
       marginTop: 64,
     },
   },
+  mapWrapper: {
+    width: '100%',
+    height: '100%',
+  },
   card: {
     display: 'flex',
     justifyContent: 'space-between',

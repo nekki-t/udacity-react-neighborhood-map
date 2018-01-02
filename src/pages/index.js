@@ -164,7 +164,7 @@ class Index extends React.Component {
                 className={classes.cover}
                 image={venue.photoLink}
                 title={venue.name}
-                role="image"
+                role="img"
                 aria-label={venue.name}
               />
               <div
@@ -249,11 +249,14 @@ class Index extends React.Component {
             </Drawer>
           </Hidden>
           <main className={classes.content}>
-            <Map
-              venues={filteredVenues}
-              selectedVenue={this.state.selectedVenue}
-              selectedMarkerChanged={this.handleMarkerSelected}
-            />
+            <div role="application" className={classes.mapWrapper}>
+              <Map
+                venues={filteredVenues}
+                selectedVenue={this.state.selectedVenue}
+                selectedMarkerChanged={this.handleMarkerSelected}
+              />
+            </div>
+
           </main>
         </div>
         <ToastContainer
